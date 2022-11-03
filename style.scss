@@ -1,0 +1,93 @@
+@import 'variables';
+
+.text {
+  &-align {
+    &-left {
+      text-align: left;
+    }
+    &-right {
+      text-align: right;
+    }
+    &-center {
+      text-align: center;
+    }
+  }
+}
+
+.color {
+  &-gray {
+    color: var(--gray);
+    &-bg {
+      background-color: var(--gray);
+    }
+  }
+  &-gray {
+    color: var(--gray);
+    &-bg {
+      background-color: var(--gray);
+    }
+  }
+  &-gray-dark {
+    color: var(--gray-dark);
+    &-bg {
+      background-color: var(--gray-dark);
+    }
+  }
+  &-primary {
+    color: var(--primary);
+    &-bg {
+      background-color: var(--primary);
+    }
+  }
+  &-secondary {
+    color: var(--secondary);
+    &-bg {
+      background-color: var(--secondary);
+    }
+  }
+  &-success {
+    color: var(--success);
+    &-bg {
+      background-color: var(--success);
+    }
+  }
+  &-info {
+    color: var(--info);
+    &-bg {
+      background-color: var(--info);
+    }
+  }
+  &-warning {
+    color: var(--warning);
+    &-bg {
+      background-color: var(--warning);
+    }
+  }
+  &-danger {
+    color: var(--danger);
+    &-bg {
+      background-color: var(--danger);
+    }
+  }
+  &-light {
+    color: var(--light);
+    &-bg {
+      background-color: var(--light);
+    }
+  }
+  &-dark {
+    color: var(--dark);
+    &-bg {
+      background-color: var(--dark);
+    }
+  }
+}
+
+.border {
+  &-rounded {
+    &-ridge {
+      border-radius: 10px;
+      padding: 5px;
+    }
+  }
+}
